@@ -167,7 +167,7 @@ if(alturaVentana<anchoVentana){
         imagen5.style.display = 'none';
         //imagen6.style.transition = 'opacity 1s ease';
         imagen6.style.transition = 'all 10s ease';
-        imagen6.style.transform = 'translateY(50vh)'
+        imagen6.style.transform = 'translateY(51vh)'
         texto.style.transition = 'opacity 1s ease';
         texto.style.opacity = '1'
     });
