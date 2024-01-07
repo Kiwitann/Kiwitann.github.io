@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+#pregunta {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#resultado {
+    display: none; /* Ocultar el resultado al inicio */
+}
+/* Otros estilos */
+
+#imagenOcultarMostrar {
+    width: 150px; /* Ajusta el ancho según tus necesidades */
+    height: 250px; /* Ajusta el alto según tus necesidades */
+}
+
+.gif-container {
+    position: absolute; /* Posición absoluta para permitir ajuste preciso */
+    top: 50%; /* Centrar verticalmente */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Centrar exactamente en el medio */
+}
+
+.hidden {
+    display: none;
+}
+/* Otros estilos */
+
+.hidden-audio {
+    display: none;
+}
+
+
+
