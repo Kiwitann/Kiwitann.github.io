@@ -42,6 +42,7 @@ function funcionBoton2() {
     if (conNo<1){
         reproducirSonidoNo();
         conNo++;
+        //Contadoe
 
     }
 
