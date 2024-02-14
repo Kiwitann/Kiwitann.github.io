@@ -2,6 +2,8 @@
 /* PC */
 @media (min-aspect-ratio: 1/1) {
     body {
+        font-family: 'Amatic SC', cursive;
+        font-size: 34px;
         margin: 0;
         padding: 0;
         display: flex;
@@ -13,61 +15,7 @@
     
     #container_bo {
         position: fixed;
-        bottom: 20vh;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-color: #f4f4f4;
-    }
-    
-    #container_img {
-        text-align: center; /* Centra el contenido horizontalmente */
-    }
-    
-    #imagen {
-        max-width: 20%;
-        height: auto;
-    }
-    
-    #texto {
-        margin: 10px auto; /* Espaciado alrededor del texto y centrado horizontalmente */
-    }
-    
-    .boton {
-        margin: 0 50px;
-        padding: 10px;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-    }
-    
-    #boton1 {
-        background-color: #3498db;
-    }
-    
-    #boton2 {
-        background-color: #e74c3c;
-    }
-    
-}
-
-@media (max-aspect-ratio: 1/1) {
-    body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f4f4f4;
-    }
-    
-    #container_bo {
-        position: fixed;
-        bottom: 20vh;
+        bottom: 30vh;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
@@ -79,7 +27,71 @@
     
     #container_img {
         position: absolute;
-        top: 35%;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center; /* Centra el texto horizontalmente dentro del contenedor */
+    }
+    
+    #imagen {
+        max-width: 40%;
+        height: auto;
+        display: block; /* Asegura que la imagen se comporte como un bloque para aplicar margen automático */
+        margin: 0 auto; /* Centra la imagen horizontalmente dentro del contenedor */
+    
+    }
+    
+    #texto {
+        margin: 10px auto; /* Espaciado alrededor del texto y centrado horizontalmente */
+    }
+    
+    .boton {
+        font-family: 'Amatic SC', cursive;
+        font-size: 22px;
+        margin: 0 50px;
+        padding: 10px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    #boton1 {
+        background-color: #03b103;
+    }
+    
+    #boton2 {
+        background-color: #ce2613;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    body {
+        font-family: 'Amatic SC', cursive;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
+    
+    #container_bo {
+        position: fixed;
+        bottom: 35vh;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #f4f4f4;
+    }
+    
+    #container_img {
+        position: absolute;
+        top: 20%;
         text-align: center; /* Centra el contenido horizontalmente */
     }
     
@@ -93,6 +105,8 @@
     }
     
     .boton {
+        font-family: 'Amatic SC', cursive;
+        font-size: 17px;
         margin: 0 50px;
         padding: 10px;
         color: #fff;
@@ -101,10 +115,10 @@
     }
     
     #boton1 {
-        background-color: #3498db;
+        background-color: #03b103;
     }
     
     #boton2 {
-        background-color: #e74c3c;
+        background-color: #ce2613;
     }
 }
