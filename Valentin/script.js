@@ -26,6 +26,7 @@ function reproducirSonidoSi() {
 
 function funcionBoton1() {
     // Lógica para el botón 1
+    
     console.log("Haciendo clic en Botón 1");
     reproducirSonidoSi();
     document.getElementById("imagen").src = "Si.png";
@@ -39,6 +40,7 @@ function funcionBoton1() {
 
 function funcionBoton2() {
     // Lógica para el b
+    audioSi.pause();
     if (conNo<1){
         reproducirSonidoNo();
         conNo++;
